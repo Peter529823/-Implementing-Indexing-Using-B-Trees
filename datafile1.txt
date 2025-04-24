@@ -1,0 +1,4 @@
+000000088 Doe             John            0 ML   jdoe@vt.edu        
+000000097 Noce            Eric            1 NLP  Noce@vt.edu        
+000000056 Tuvet           Susan           2 IR   Tuvet@aol.com      
+000000003 Dolly           Barry           1 CN   Barry@msn.com
