@@ -1,0 +1,46 @@
+NUMBER OF RECORDS: 4, ID INDEX: 3 nodes, NAME INDEX: 3 nodes.
+
+COMMAND: find ID 000000097  
+64:000000097Noce Eric 1NLP Noce@vt.edu  
+
+COMMAND: find name Doe  
+0:000000088Doe John 0ML jdoe@vt.edu  
+
+COMMAND: find name Dolly  
+192:000000003Dolly Barry 1CN Barry@msn.com  
+256:000000021Dolly Jian 0dSE jdolly@vt.edu   
+
+COMMAND: add 000000060 Botters Sylvia 1 ALG botters@vt.edu  
+STUDENT 000000060 ADDED (320;0;0)  
+
+COMMAND: add 000000066 Doe Jane 1 UNJ jadoe@vt.edu  
+STUDENT 000000066 ADDED (384;2;2)  
+
+COMMAND: add 000000021 Dolly Jian 0 dSE jdolly@vt.edu  
+STUDENT 000000021 ADDED (448;0;0)  
+
+COMMAND: dump by ID  
+192:000000003Dolly Barry 1CN Barry@msn.com  
+256:000000021Dolly Jian 0dSE jdolly@vt.edu  
+128:000000056Tuvet Susan 2IR Tuvet@aol.com  
+320:000000060Botters Sylvia 1ALG botters@vt.edu  
+384:000000066Doe Jane 1UNJ jadoe@vt.edu  
+0:000000088Doe John 0ML jdoe@vt.edu  
+64:000000097Noce Eric 1NLP Noce@vt.edu  
+
+COMMAND: dump by name  
+64:000000097Noce Eric 1NLP Noce@vt.edu  
+192:000000003Dolly Barry 1CN Barry@msn.com  
+256:000000021Dolly Jian 0dSE jdolly@vt.edu  
+128:000000056Tuvet Susan 2IR Tuvet@aol.com  
+0:000000088Doe John 0ML jdoe@vt.edu  
+384:000000066Doe Jane 1UNJ jadoe@vt.edu  
+320:000000060Botters Sylvia 1ALG botters@vt.edu  
+
+COMMAND: add 000000098 Chang Rui 2 XX RC@yahoo.com  
+STUDENT 000000098 ADDED (512;0;1)  
+
+COMMAND: find name Vergara  
+NOT FOUND  
+
+NUMBER OF RECORDS: 9, ID INDEX: 7 nodes, NAME INDEX: 8 nodes.
