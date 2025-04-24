@@ -1,0 +1,10 @@
+find ID 000000097
+find name Doe
+find name Dolly
+add 000000060 Botters Sylvia 1 ALG botters@vt.edu
+add 000000066 Doe Jane 1 UNJ jadoe@vt.edu
+add 000000021 Dolly Jian 0 dSE jdolly@vt.edu
+dump by ID
+dump by name
+add 000000098 Chang Rui 2 XX RC@yahoo.com
+find name Vergara
